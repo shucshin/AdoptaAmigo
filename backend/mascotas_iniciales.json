@@ -1,0 +1,327 @@
+[
+{
+    "model": "mascotas.especie",
+    "pk": 1,
+    "fields": {
+        "nombre": "Hámster"
+    }
+},
+{
+    "model": "mascotas.especie",
+    "pk": 2,
+    "fields": {
+        "nombre": "Perro"
+    }
+},
+{
+    "model": "mascotas.especie",
+    "pk": 3,
+    "fields": {
+        "nombre": "Gato"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 1,
+    "fields": {
+        "estado": "Ciudad de México",
+        "abreviatura": "CDMX"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 2,
+    "fields": {
+        "estado": "Estado de México",
+        "abreviatura": "EDOMEX"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 3,
+    "fields": {
+        "estado": "Jalisco",
+        "abreviatura": "JAL"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 4,
+    "fields": {
+        "estado": "Nuevo León",
+        "abreviatura": "NL"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 5,
+    "fields": {
+        "estado": "Puebla",
+        "abreviatura": "PUE"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 6,
+    "fields": {
+        "estado": "Querétaro",
+        "abreviatura": "QRO"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 7,
+    "fields": {
+        "estado": "Morelos",
+        "abreviatura": "MOR"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 8,
+    "fields": {
+        "estado": "Baja California",
+        "abreviatura": "BC"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 9,
+    "fields": {
+        "estado": "Guanajuato",
+        "abreviatura": "GTO"
+    }
+},
+{
+    "model": "mascotas.ubicacion",
+    "pk": 10,
+    "fields": {
+        "estado": "Yucatán",
+        "abreviatura": "YUC"
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 1,
+    "fields": {
+        "nombre": "Luna",
+        "descripcion": "Es una gatita que le gusta jugar todo el dia",
+        "edad_meses": 2,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/gato2_UaTaT30.jpg",
+        "especie": 3,
+        "publicador": 1,
+        "sexo": "hembra",
+        "ubicacion": 1
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 2,
+    "fields": {
+        "nombre": "Max",
+        "descripcion": "Es un perro que le encanta estar en un patio muy grande",
+        "edad_meses": 37,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/perro3_GfItkB9.png",
+        "especie": 2,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 2
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 3,
+    "fields": {
+        "nombre": "Pelusa",
+        "descripcion": "Es una gata que no le gusta mucho el agua",
+        "edad_meses": 40,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/gato1.jpg",
+        "especie": 3,
+        "publicador": 1,
+        "sexo": "hembra",
+        "ubicacion": 4
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 4,
+    "fields": {
+        "nombre": "Coco",
+        "descripcion": "Le gusta comer a todas horas, nunca deja de comer ni de jugar",
+        "edad_meses": 10,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/perro2.jpg",
+        "especie": 2,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 6
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 5,
+    "fields": {
+        "nombre": "Bella",
+        "descripcion": "Le gustan estar siempre con su dueño, nunca lo deja de seguir",
+        "edad_meses": 15,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/perro1_44W8e4E.jpeg",
+        "especie": 2,
+        "publicador": 1,
+        "sexo": "hembra",
+        "ubicacion": 7
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 6,
+    "fields": {
+        "nombre": "mochi",
+        "descripcion": "Es muy pequeño, necesita mucho cuidado",
+        "edad_meses": 2,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/gatoadop1.jpg",
+        "especie": 3,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 10
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 7,
+    "fields": {
+        "nombre": "Jack",
+        "descripcion": "Se duerme todo el dia",
+        "edad_meses": 9,
+        "vacunado": false,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/perro1_i3xbEbc.jpeg",
+        "especie": 2,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 8
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 8,
+    "fields": {
+        "nombre": "Bolita",
+        "descripcion": "Se esconde por todos lados",
+        "edad_meses": 6,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/ham1.jpg",
+        "especie": 1,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 1
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 9,
+    "fields": {
+        "nombre": "Quesito",
+        "descripcion": "Le gusta mucho el queso",
+        "edad_meses": 11,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/ham2.jpg",
+        "especie": 1,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 4
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 10,
+    "fields": {
+        "nombre": "Oliver",
+        "descripcion": "No le gusta que le toquen la panza",
+        "edad_meses": 42,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/gatoadop2.jpeg",
+        "especie": 3,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 8
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 11,
+    "fields": {
+        "nombre": "Rockie",
+        "descripcion": "No le gusta moverse mucho",
+        "edad_meses": 14,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/perro2_PCqKnsf.jpg",
+        "especie": 2,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 2
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 12,
+    "fields": {
+        "nombre": "Pelusa",
+        "descripcion": "Siempre esta en su rueda girando",
+        "edad_meses": 5,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/ham3.jpg",
+        "especie": 1,
+        "publicador": 1,
+        "sexo": "hembra",
+        "ubicacion": 8
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 13,
+    "fields": {
+        "nombre": "Turbo",
+        "descripcion": "Siempre esta corriendo, se debe de tener cuidado de que no se escape",
+        "edad_meses": 9,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/ham4.jpeg",
+        "especie": 1,
+        "publicador": 1,
+        "sexo": "macho",
+        "ubicacion": 5
+    }
+},
+{
+    "model": "mascotas.mascota",
+    "pk": 14,
+    "fields": {
+        "nombre": "Cleo",
+        "descripcion": "Le gusta mucho comer",
+        "edad_meses": 24,
+        "vacunado": true,
+        "fecha_reporte": "2025-11-26",
+        "imagen": "mascotas/gatoadop3.jpg",
+        "especie": 3,
+        "publicador": 1,
+        "sexo": "hembra",
+        "ubicacion": 4
+    }
+}
+]
